@@ -27,6 +27,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Install packages
-      run: source tools/ci.sh && ci_esp32_idf50_setup
+      run: source tools/ci-lin.sh && ci_esp32_idf50_setup
     - name: Build
-      run: source tools/ci.sh && ci_esp32_build
+      run: source tools/ci-lin.sh && ci_esp32_build
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: micropython-bin
+        path: build-ESP32_GENERIC_S3/micropython.bin

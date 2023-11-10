@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: micropython-bin
-        path: build-ESP32_GENERIC_S3/micropython.bin
+        path: /home/runner/work/micropython/micropython/ports/esp32/build-ESP32_GENERIC_S3/micropython.bin

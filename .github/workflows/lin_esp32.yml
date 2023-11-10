@@ -1,6 +1,7 @@
 name: esp32-s3 运行port
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - dev

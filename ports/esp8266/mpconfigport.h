@@ -170,4 +170,4 @@ extern const struct _mp_print_t mp_debug_print;
 #define _assert(expr) ((expr) ? (void)0 : __assert_func(__FILE__, __LINE__, __func__, #expr))
 
 //added by jimmy 2023-11-11
-#define MODULE_CEXAMPLE_ENABLED (1)
+// #define MODULE_CEXAMPLE_ENABLED (1)

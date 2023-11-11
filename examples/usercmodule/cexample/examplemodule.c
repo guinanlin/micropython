@@ -89,4 +89,4 @@ const mp_obj_module_t example_user_cmodule = {
 // Register the module to make it available in Python.
 // test 1 flag
 // MP_REGISTER_MODULE(MP_QSTR_cexample, example_user_cmodule);
-MP_REGISTER_MODULE(MP_QSTR_cexample, example_user_cmodule, 1);
+MP_REGISTER_MODULE(MP_QSTR_cexample, example_user_cmodule);

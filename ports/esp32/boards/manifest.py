@@ -1,5 +1,6 @@
 freeze("$(PORT_DIR)/modules")
 include("$(MPY_DIR)/extmod/asyncio")
+include("$(MPY_DIR)/extmod/audio")
 
 # Useful networking-related packages.
 require("bundle-networking")
